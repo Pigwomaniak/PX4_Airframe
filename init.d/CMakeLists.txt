@@ -46,6 +46,7 @@ px4_add_romfs_files(
 	2106_albatross
 	2200_mini_talon
 	2201_diff_thrust
+	2202_test1
 
 	# [3000, 3999] Flying wing"
 	3000_generic_wing
