@@ -53,4 +53,4 @@ fi
 set MIXER FWVTTV
 
 # use PWM parameters for throttle channel
-set PWM_OUT 5
+set PWM_OUT 6

@@ -9,10 +9,9 @@
 # @output MAIN2 aileron left
 # @output MAIN3 v-tail right
 # @output MAIN4 v-tail left
-# @output MAIN5 throttle
-# @output MAIN6 wheel
-# @output MAIN7 flaps right
-# @output MAIN8 flaps left
+# @output MAIN5 motor 1
+# @output MAIN6 motor 1
+
 #
 # @output AUX1 feed-through of RC AUX1 channel
 # @output AUX2 feed-through of RC AUX2 channel
@@ -50,7 +49,7 @@ fi
 # The Mini Talon does not have a wheel and
 # no flaps. I leave them here because the mixer
 # computes also wheel and flap controls.
-set MIXER AAVVTWFF_vtail
+set MIXER FWVTTV
 
 # use PWM parameters for throttle channel
-set PWM_OUT 5
+set PWM_OUT 6
